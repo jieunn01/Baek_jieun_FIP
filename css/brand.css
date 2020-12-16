@@ -55,7 +55,11 @@ h3 {
 {
 	width: 287px;
 	height: 121px;
+<<<<<<< HEAD
 	margin-left: 340px;
+=======
+	margin-left: 360px;
+>>>>>>> main
 	align-items: center;
 }
 
@@ -64,7 +68,11 @@ h3 {
 	width: 700px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+<<<<<<< HEAD
 	margin-left: 110px;
+=======
+	margin-left: 130px;
+>>>>>>> main
 	font-size: 15px;
 	display: flex;
 	align-items: center;
@@ -180,9 +188,14 @@ h3 {
 {
 	display: flex;
 	justify-content: center;
+<<<<<<< HEAD
 	align-items: center;
 	width: 383px;
 	height: 28px;
+=======
+	width: 383px;
+	height: 25px;
+>>>>>>> main
 	background-color: brown;
 }
 
@@ -226,9 +239,12 @@ h3 {
 	display: flex;
 	background: #d6b2b2;
 	font-size: 12px;
+<<<<<<< HEAD
 	margin-right: -20px;
 	margin-left: -20px;
 	margin-bottom: 20px;
+=======
+>>>>>>> main
 }
 
 #subNav
@@ -251,11 +267,14 @@ h3 {
 	justify-content: flex-start;
 }
 
+<<<<<<< HEAD
 label{
 	display: inline-block;
 	width: 60px;
 	text-align: right;
 }
+=======
+>>>>>>> main
 .form{
 	font-size: 12px;
 }
@@ -263,10 +282,18 @@ label{
 {
 	width: 50px;
 	height: 10px;
+<<<<<<< HEAD
 	margin-top: 65px;
 	margin-left: 10px;
 }
 
+=======
+	margin-top: 54px;
+	margin-left: 5px;
+}
+
+
+>>>>>>> main
 #rightflex
 {
 	display: flex;

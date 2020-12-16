@@ -55,7 +55,11 @@ h3 {
 {
 	width: 287px;
 	height: 121px;
+<<<<<<< HEAD
 	margin-left: 340px;
+=======
+	margin-left: 360px;
+>>>>>>> main
 	align-items: center;
 }
 
@@ -64,7 +68,11 @@ h3 {
 	width: 700px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+<<<<<<< HEAD
 	margin-left: 110px;
+=======
+	margin-left: 130px;
+>>>>>>> main
 	font-size: 15px;
 	display: flex;
 	align-items: center;
@@ -140,10 +148,6 @@ h3 {
 	text-transform: 
 }
 
-.title
-{
-	color: #8c2b2f;
-}
 
 #footerCon 
 {
