@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* CSS DOCUMENT */
+
+.hidden {
+	display: none;
+}
+
+body {
+	background-color: white; 
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+	background-color: white;
+	padding: 20px 10px;
+}
+
+
+/*-- BODY --*/
+
+body {
+	font-family: Georgia, serif, sans-serif;
+	font-size: 14px;
+}
+
+p {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+
+#mainHeader
+{
+	display: flex; /*-- most important start --*/
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#mainflex
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#logo
+{
+	width: 287px;
+	height: 121px;
+	margin-left: 380px;
+	align-items: center;
+}
+
+#navCon /*Container*/
+{
+	width: 700px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 150px;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	flex-direction: row; /* felx direction option2 : row 가로 column 세로 */
+	justify-content: center;
+}
+
+#mainNav
+{
+	width: 180px;
+	height: 45px;
+	background: #F08080;
+	margin: 0;
+	padding: 0;
+}
+
+
+#hero {
+	width: 960px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: flex-start;
+	justify-content: space-between;
+}
+
+#mainImage {
+	width: 612px;
+	height: 261px;
+}
+
+#mainImageDesc {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+
+#production
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.productionFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+
+.productionImage
+{
+	width: 220px;
+	height: 220px;
+	margin-bottom: 20px;
+}
+
+
+.productionText
+{
+	width: 230px;
+	height: 170px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: 
+}
+
+.title
+{
+	color: #8c2b2f;
+}
+
+#footerCon 
+{
+	width: 960px;
+	height: 140px;
+	display: flex;
+	background: #d6b2b2;
+	font-size: 12px;
+}
+
+#subNav
+{
+	width: 131px;
+	height: 112px;
+
+	margin: 0;
+	padding: 0;
+	
+}
+
+.qaCon
+{
+	display: flex;
+	width: 300px;
+	height: 129px;
+	margin-left: 65px;
+	font-size: 12px;
+	justify-content: row;
+	justify-content: flex-start;
+}
+
+.form{
+	font-size: 12px;
+}
+.buttonclass
+{
+	width: 50px;
+	height: 10px;
+	margin-top: 54px;
+	margin-left: 5px;
+}
+
+
+#rightflex
+{
+	display: flex;
+	width: 277px;
+	height: 95px;
+	flex-direction: column;
+	margin-top: 35px;
+	margin-left: 50px;
+}
+.socialCon
+{
+	display: flex;
+	width: 65px;
+	height: 65px;
+	flex-direction: row;
+	margin-left: 160px;
+	margin-right: 80px;
+	justify-content: flex-start;
+
+}
+
+.social-up{
+	width: 30px;
+	height: 65px;
+
+}
+.social-down{
+	width: 30px;
+	height: 65px;
+}
+.socialIcon1
+{
+	margin-right: 20px;
+}
+
+.socialIcon2
+{
+	margin-right: 20px;
+	margin-left: 5px;
+}
+.socialIcon3
+{
+	margin-right: 20px;
+}
+
+.socialIcon4
+{
+	margin-right: 20px;
+	margin-left: 5px;
+}
+.copyright
+{
+	display: flex;
+	width: 300px;
+	justify-content: flex-start;
+
+	margin-top: 7px;
+
+}
+.fontSub
+{
+	font-size: 12px;
+	color: white;
+
+}
+
