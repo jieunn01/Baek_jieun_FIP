@@ -31,7 +31,7 @@ p {
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 26px;
 }
 
 h3 {
@@ -81,88 +81,140 @@ h3 {
 	padding: 0;
 }
 
-.fontTitle
+
+#brandstoryCon
 {
-	font-size: 22px;
-	text-align: center;
+	width: 891px;
+	height: 332px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: flex-start;
+	padding-left: 20px 10px;
+	margin-bottom: 50px;
+
+
 }
 
-.serviceCon1{
+#brandimage
+{
+	display: flex;
+	margin-left: 50px;
+	margin-right: 20px;
+	margin-top: 30px;
+
+}
+#branddesc
+{
+	width: 600px;
+	height: 300px;
+	margin-left: 10px;
+
+}
+
+#packagesCon1
+{
+	display: flex;
+	width: 836px;
+	height: 429px;
+	justify-content: row;
+	margin-left: 60px;
+
+
+
+}
+
+#packagesCon2
+{
+	display: flex;
+	width: 836px;
+	height: 429px;
+	justify-content: row;
+	margin-left: 60px;
+	margin-top: 10px;
+
+}
+
+.packageflex1
+{
+	display: flex;
+	flex-direction: column;
+	width: 395px;
+	height: 414px;
+
+}
+
+.packageimage
+{
+	width: 395px;
+	height: 300px;
+
+}
+
+.packagedescCon
+{
 	display: flex;
 	justify-content: row;
-	justify-content: space-around;
-}
-.serviceCon2{
-	display: flex;
-	justify-content: row;
-	justify-content: space-around;
-}
 
-.pinkbox1{
-	display: flex;
-	width: 449px;
-	height: 130px;
-	background-color: #d0adad;
-	margin-bottom: 20px;
 }
-
-.pinkbox2{
-	display: flex;
-	width: 449px;
-	height: 130px;
-	background-color: #d0adad;
-}
-
-.pinkbox3{
-	display: flex;
-	width: 449px;
-	height: 130px;
-	background-color: #d0adad;
-}
-
-.pinkbox4{
-	display: flex;
-	width: 449px;
-	height: 130px;
-	background-color: #d0adad;
-}
-
-.icon
+.title
 {
-	align-items: center;
-	margin-top: 32px;
-	margin-left: 20px;
+	display: flex;
+	width: 240px;
+	height: 35px;
 }
 .desc{
-	width: 380px;
-	height: 80px;
-	margin-left: 20px;
-	margin-top: -10px;
+	display: flex;
+	width: 377px;
+	height: 40px;
+	margin-bottom: 25px;
+
 }
 
-#contactCon
+.price{
+	display: flex;
+
+	margin-left: 50px;
+
+}
+.viewbox
 {
 	display: flex;
-	width: 900px;
-	height: 860px;
-	justify-content: row;
-	margin-left: 50px;
-	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+	width: 383px;
+	height: 28px;
+	background-color: brown;
 }
 
-.form
+
+.packageflex2
 {
-	width: 430px;
-	height: 262px;
+	display: flex;
+	flex-direction: column;
+	width: 395px;
+	height: 414px;
+	margin-left: 35PX;
 
 }
 
-.map
+.packageflex3
 {
-	margin-left: 120px;
+	display: flex;
+	flex-direction: column;
+	width: 395px;
+	height: 414px;
+	margin-top: 35px;
+}
 
-	width: 376px;
-	height: 252px;
+.packageflex4
+{
+	display: flex;
+	flex-direction: column;
+	width: 395px;
+	height: 414px;
+	margin-left: 35PX;
+	margin-top: 35px;
+
 }
 
 
